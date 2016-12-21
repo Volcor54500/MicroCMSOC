@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link href="../web/microcms.css" rel="stylesheet" />
+    <link href="../web/lib/css/microcms.css" rel="stylesheet" />
     <title>MicroCMS - Home</title>
 </head>
 <body>
