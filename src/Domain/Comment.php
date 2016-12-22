@@ -18,6 +18,11 @@ class Comment
      */
     private $author;
 
+    public function setAuthor(User $author) {
+        $this->author = $author;
+        return $this;
+    }
+
     /**
      * Comment content.
      *
@@ -45,10 +50,6 @@ class Comment
         return $this->author;
     }
 
-    public function setAuthor($author) {
-        $this->author = $author;
-        return $this;
-    }
 
     public function getContent() {
         return $this->content;
